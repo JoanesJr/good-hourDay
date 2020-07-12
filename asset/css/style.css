@@ -1,0 +1,34 @@
+body {
+    font: 15pt Arial;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+section {
+    padding: 15px;
+    background-color: white;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.76);
+    border-radius: 18px;
+    text-align: center;
+}
+
+section div img#image {
+    margin-bottom: 5px;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 200px;
+}
+
+footer {
+    margin-top: 15px;
+    color: white;
+    text-align: center;
+}
